@@ -1,11 +1,11 @@
 <template>
-	<div class="hello">
-		<el-row>
+  <div class="hello">
+    <!-- <el-row>
 			<el-col :xs="24">
 				<div class="box1">
 					<el-row :gutter="20">
 						<el-col :xs="24" :sm="16">
-							<!-- <el-carousel indicator-position="outside" :interval="5000">
+							<el-carousel indicator-position="outside" :interval="5000">
 								<el-carousel-item v-for="item in box1" :key="item.title">
 									<div class="bannerbox animated">
 										<h3>{{ item.title }}</h3>
@@ -15,27 +15,30 @@
 										</el-button>
 									</div>
 								</el-carousel-item>
-							</el-carousel>-->
+							</el-carousel>
 						</el-col>
 						<el-col :xs="0" :sm="8"></el-col>
 					</el-row>
 				</div>
 			</el-col>
-		</el-row>
-		<el-row class="Introduction">
-			<h1>公司简介</h1>
-			<el-col :xs="24">
-				<section>
-					<div class="IntroductionLeft">
-						<img src="../assets/1587_jgzzz5qq.png" alt="">
-					</div>
-					<div class="IntroductionRight">
-						<p>大樟树智能科技是集社会资源的仓网加盟体系平台，共享平台体系内资源，提升规范仓储操作管理，实现仓储资源最大化利用，且为合作伙伴提供完善的仓储（含物流）服务，实现区域内的资源整合。最终形成仓储共享与资源整合的智能物流管理。</p>
-					</div>
-				</section>
-			</el-col>
-		</el-row>
-		<!-- <el-row>
+    </el-row>-->
+    <div class="banner">
+      <img src="../assets/dzs1.jpg" alt />
+    </div>
+    <el-row class="Introduction">
+      <h1>公司简介</h1>
+      <el-col :xs="24">
+        <section>
+          <div class="IntroductionLeft">
+            <img src="../assets/1587_jgzzz5qq.png" alt />
+          </div>
+          <div class="IntroductionRight">
+            <p>大樟树智能科技是集社会资源的仓网加盟体系平台，共享平台体系内资源，提升规范仓储操作管理，实现仓储资源最大化利用，且为合作伙伴提供完善的仓储（含物流）服务，实现区域内的资源整合。最终形成仓储共享与资源整合的智能物流管理。</p>
+          </div>
+        </section>
+      </el-col>
+    </el-row>
+    <!-- <el-row>
 			<div class="box2">
 				<el-col :span="20" :offset="2">
 					<el-row class="box2_row">
@@ -137,9 +140,9 @@
 					</el-row>
 				</el-col>
 			</div>
-		</el-row>-->
+    </el-row>-->
 
-		<!-- <el-row>
+    <!-- <el-row>
 			<el-col :xs="24">
 				<div class="box3">
 					<el-row>
@@ -340,8 +343,8 @@
 					</el-row>
 				</div>
 			</el-col>
-		</el-row>-->
-		<!-- <el-row>
+    </el-row>-->
+    <!-- <el-row>
 			<el-col :span="20" :offset="2">
 				<div calss="box4">
 					<el-row>
@@ -387,8 +390,8 @@
 					</el-row>
 				</div>
 			</el-col>
-		</el-row>-->
-	</div>
+    </el-row>-->
+  </div>
 </template>
 
 <script>
@@ -496,11 +499,19 @@ h2 {
 a {
   color: #42b983;
 }
-
+.banner {
+  width: 100%;
+  height: 316px;
+  overflow: hidden;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
 /* box1 */
 .box1 {
   margin: 0;
-  height: 800px;
+  height: auto;
   width: 100%;
   /* background: url(../assets/3917_jdbaxb26.jpg) no-repeat center center; */
   background: url(../assets/dzs1.jpg) no-repeat;

@@ -23,7 +23,7 @@
 					</li>
 				</ul>
 				<el-row class="footer_row2">
-					<el-col :xs="24">COPYRIGHT (©) 2017模板板块.</el-col>
+					<el-col :xs="24">沪ICP备20001557号</el-col>
 				</el-row>
 			</el-footer>
 		</el-container>
